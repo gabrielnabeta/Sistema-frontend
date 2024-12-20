@@ -1,0 +1,28 @@
+.box button{
+    width: 100%;
+}
+
+.box input[type="text"], 
+.box input[type="email"],
+.box input[type="password"]{
+    width:100%;
+}
+
+._senha {
+   float: right;
+   font-size: 12px;
+}
+
+.box {
+    width: 300px;
+}
+
+.erro {
+    color: #fff;
+    background: #de2a2a;
+    padding: 5px;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+}

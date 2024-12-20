@@ -1,0 +1,15 @@
+.box button {
+    width: 100%;
+}
+
+.box input[type="email"]{
+    width: 100%;
+
+}
+
+.box {
+    width: 300px;
+}
+.label {
+    width: 100%;
+}

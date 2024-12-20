@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Login</title>
+	
+	<meta name="robots" content="noindex,nofollow"/>
+
+	<meta charset ="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+	
+	<link rel="stylesheet"	href="../style.css" />
+	
+	<link rel="stylesheet" href="login.css" />
+		  
+</head>
+
+<body>
+
+	<div class="container">
+		
+		<div class="box">
+			
+			<h1>Login</h1>
+
+			<img height="100" src="../logo.png" />
+
+			<form id="frmLogin">
+				<label for="txtEmail">E-mail:</label>
+				<input id="txtEmail" type="email" name="email" />
+
+				<label for="txtSenha">Senha:</label>
+				<input id="txtSenha " type="password" name="senha" />
+
+				<a class="esqueceu-senha" href="Esqueceu-Senha.html">Esqueci minha senha</a>
+
+				<button id="btnLogin">Fazer login</button>
+			</form>
+
+			<span id="spnErro" class="erro"></span>
+
+			<p>Não possui conta ? <a href="Cadastro.html">Cadastre-se</a></p>
+
+		</div>
+	</div>
+
+	<script src="login.js"></script>
+
+</body>
+</html>
